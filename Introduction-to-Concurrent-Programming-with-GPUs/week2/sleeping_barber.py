@@ -111,7 +111,8 @@ if __name__ == '__main__':
         # TODO Invoke the run method in the Customer Class
         c.start()
     all_customers.join()    # Terminates all Customer Threads
-    print("€"+str(Earnings))
+    #print("€"+str(Earnings))
+    print ("Barbers payment total:" + str(Earnings))
     SHOP_OPEN = False
     for i in barbers:
         i.join()    # Terminates all Barbers
