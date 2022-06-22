@@ -1,0 +1,119 @@
+----
+0
+student rate.
+----
+1
+Barber is sleeping...
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+Barber is sleeping...
+Barber is sleeping...
+Haircut finished. Haircut took 0.46471356265061503
+Thread-1
+student rate.
+----
+1
+Barber is sleeping...
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+Barber is sleeping...
+Barber is sleeping...
+adult rate.
+----
+1
+Barber is sleeping...
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+Barber is sleeping...
+Haircut finished. Haircut took 0.2585852666590036
+Thread-2
+child rate.
+----
+1
+Barber is sleeping...
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+Barber is sleeping...
+senior rate.
+----
+1
+Barber is sleeping...
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+student rate.
+----
+1
+Haircut finished. Haircut took 0.7324634695781378
+Thread-1
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+Haircut finished. Haircut took 2.1583758881545023
+Thread-3
+Haircut finished. Haircut took 0.8856273765932244
+Thread-2
+child rate.
+----
+1
+Barber is sleeping...
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+Barber is sleeping...
+adult rate.
+Barber is sleeping...
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+----
+0
+Haircut finished. Haircut took 1.012799851777086
+Thread-1
+Haircut finished. Haircut took 0.5590279638156278
+Thread-3
+student rate.
+----
+1
+Barber is sleeping...
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+Barber is sleeping...
+Haircut finished. Haircut took 1.0798410713360687
+Thread-2
+student rate.
+Barber is sleeping...
+Barber is awake.
+------------------
+Barber sleep False
+------------------
+Customer haircut started.
+Barber is sleeping...
+Haircut finished. Haircut took 1.7272020483154202
+Thread-1
+Haircut finished. Haircut took 1.4698504564178534
+Thread-3
+€103
