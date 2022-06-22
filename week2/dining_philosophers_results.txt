@@ -1,0 +1,119 @@
+Russel is hungry.
+Russel starts eating
+Aristotle is hungry.
+Marx is hungry.
+Marx swaps forks
+Kant is hungry.
+Kant starts eating
+Buddha is hungry.
+Russel finishes eating and leaves to think.
+Aristotle swaps forks
+Marx starts eating
+Kant finishes eating and leaves to think.
+Aristotle starts eating
+Buddha swaps forks
+Marx finishes eating and leaves to think.
+Buddha starts eating
+Russel is hungry.
+Russel swaps forks
+Aristotle finishes eating and leaves to think.
+Russel starts eating
+Buddha finishes eating and leaves to think.
+Marx is hungry.
+Marx swaps forks
+Russel finishes eating and leaves to think.
+Marx starts eating
+Aristotle is hungry.
+Aristotle starts eating
+Kant is hungry.
+Marx finishes eating and leaves to think.
+Buddha is hungry.
+Buddha starts eating
+Russel is hungry.
+Russel swaps forks
+Buddha finishes eating and leaves to think.
+Aristotle finishes eating and leaves to think.
+Kant starts eating
+Russel starts eating
+Buddha is hungry.
+Marx is hungry.
+Marx swaps forks
+Aristotle is hungry.
+Kant finishes eating and leaves to think.
+Buddha starts eating
+Russel finishes eating and leaves to think.
+Marx swaps forks
+Aristotle starts eating
+Buddha finishes eating and leaves to think.
+Marx starts eating
+Russel is hungry.
+Aristotle finishes eating and leaves to think.
+Marx finishes eating and leaves to think.
+Russel starts eating
+Kant is hungry.
+Kant starts eating
+Buddha is hungry.
+Aristotle is hungry.
+Marx is hungry.
+Marx swaps forks
+Kant finishes eating and leaves to think.
+Buddha starts eating
+Russel finishes eating and leaves to think.
+Aristotle starts eating
+Marx swaps forks
+Buddha finishes eating and leaves to think.
+Marx starts eating
+Russel is hungry.
+Kant is hungry.
+Buddha is hungry.
+Buddha swaps forks
+Marx finishes eating and leaves to think.
+Russel swaps forks
+Buddha starts eating
+Aristotle finishes eating and leaves to think.
+Russel starts eating
+Kant swaps forks
+Buddha finishes eating and leaves to think.
+Kant starts eating
+Marx is hungry.
+Marx swaps forks
+Russel finishes eating and leaves to think.
+Marx starts eating
+Kant finishes eating and leaves to think.
+Aristotle is hungry.
+Aristotle starts eating
+Buddha is hungry.
+Buddha swaps forks
+Marx finishes eating and leaves to think.
+Buddha starts eating
+Kant is hungry.
+Buddha finishes eating and leaves to think.
+Aristotle finishes eating and leaves to think.
+Kant starts eating
+Russel is hungry.
+Russel starts eating
+Marx is hungry.
+Marx swaps forks
+Russel finishes eating and leaves to think.
+Marx starts eating
+Kant finishes eating and leaves to think.
+Buddha is hungry.
+Buddha swaps forks
+Russel is hungry.
+Marx finishes eating and leaves to think.
+Buddha starts eating
+Russel starts eating
+Kant is hungry.
+Kant swaps forks
+Aristotle is hungry.
+Russel finishes eating and leaves to think.
+Aristotle starts eating
+Buddha finishes eating and leaves to think.
+Kant swaps forks
+Now we're finishing.
+Aristotle finishes eating and leaves to think.
+Kant starts eating
+Marx is hungry.
+Buddha is hungry.
+Kant finishes eating and leaves to think.
+Russel is hungry.
