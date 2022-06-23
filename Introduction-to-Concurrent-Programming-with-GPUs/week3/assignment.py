@@ -5,7 +5,7 @@ import logging
 import random
 import sys
 import time
-from threading import Thread, Lock
+from threading import Thread, Lock, active_count
 
 from core import Core
 
@@ -14,14 +14,15 @@ def execute_ticketing_system_participation(ticket_number, part_id, shared_variab
     output_file_name = "output-" + part_id + ".txt"
     # NOTE: Do not remove this print statement as it is used to grade assignment,
     # so it should be called by each thread
+    shared_variable.acquire()
     print("Thread retrieved ticket number: {} started".format(ticket_number), file=open(output_file_name, "a"))
     time.sleep(random.randint(0, 10))
     # wait until your ticket number has been called
     # output your ticket number and the current time
-
+    #print("execute_ticketing_system_participation")
     # NOTE: Do not remove this print statement as it is used to grade assignment,
     # so it should be called by each thread
-
+    shared_variable.release()
     print("Thread with ticket number: {} completed".format(ticket_number), file=open(output_file_name, "a"))
     return 0
 
@@ -52,7 +53,10 @@ class Assignment(Core):
                 logging.info("Assignment run    : create and start thread %d.", index)
                 # This is where you will start a thread that will participate in a ticketing system
                 # have the thread run the execute_ticketing_system_participation function
-
+                l = Lock()
+                x = Thread(target=execute_ticketing_system_participation, args=(index, self.part_id, l))
+                self.active_threads.append(x)
+                x.start()
                 # Threads will be given a ticket number and will wait until a shared variable is set to that number
 
                 # The code will also need to know when all threads have completed their work
@@ -67,7 +71,10 @@ class Assignment(Core):
 
     def manage_ticketing_system(self):
         # increment a ticket number shared by a number of threads and check that no active threads are running
-
+        self.num_threads += 1
+        while active_count() > self.num_threads:
+            #print("manage_ticketing_system")
+            time.sleep(1)
         return 0
 
 
