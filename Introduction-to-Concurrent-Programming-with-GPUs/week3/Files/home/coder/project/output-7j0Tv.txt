@@ -1,2 +1,0 @@
-Thread retrieved ticket number: 0 started
-Thread with ticket number: 0 completed
