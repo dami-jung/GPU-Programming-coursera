@@ -14,6 +14,10 @@
  */
 
 /*
+ * This software contains source code provided by NVIDIA Corporation.
+ */
+
+/*
  * Vector multiplication: C = A * B.
  *
  * This sample is a very basic sample that implements element by element
