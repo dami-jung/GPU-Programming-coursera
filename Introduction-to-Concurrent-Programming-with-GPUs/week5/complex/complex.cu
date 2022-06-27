@@ -10,6 +10,10 @@
  */
 
 /*
+ * This software contains source code provided by NVIDIA Corporation.
+ */
+
+/*
  * Vector multiplication: C = A * B.
  *
  * This sample is a very basic sample that implements element by element
@@ -17,7 +21,7 @@
  * of the programming guide with some additions like error checking.
  */
 
-#include "simple.h"
+#include "complex.h"
 
 /*
  * CUDA Kernel Device code
