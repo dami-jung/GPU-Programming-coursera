@@ -18,3 +18,5 @@ C​lick the Create Submission File button, which creates the file that will be 
 C​lick the Submit Assignment button, which will submit the above created file. If the submission works you will then want to go to the submission status page to see your submission status/grade.
 
 N​ote: Please be very careful in modifying any code that outputs/prints to the filesystem or stdio. You can add debug statements but it would be best to remove them before submission. You should have 2 input CSV files (a and b) and 2 output csv files created as part of running the two python threads and the CUDA code.  The Create Submission File button, combines the 4 CSV files into a single CSV file with 4 rows.  Ensure that the results.csv file is a proper CSV that only has numeric values
+
+*remove ₩n in output file to pass grader error
