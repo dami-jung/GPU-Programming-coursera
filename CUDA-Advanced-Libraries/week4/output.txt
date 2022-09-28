@@ -1,0 +1,18 @@
+>>> GCC Version is greater or equal to 5.1.0 <<<
+./thrustSort.exe
+./thrustSort.exe Starting...
+
+MapSMtoCores for SM 7.0 is undefined.  Default to use 128 Cores/SM
+GPU Device 0: "Tesla V100-SXM2-32GB" with compute capability 7.0
+
+Iteration sorted data successfully.
+Iteration sorted data successfully.
+Iteration sorted data successfully.
+Iteration sorted data successfully.
+Iteration sorted data successfully.
+Iteration sorted data successfully.
+Iteration sorted data successfully.
+Iteration sorted data successfully.
+Iteration sorted data successfully.
+Iteration sorted data successfully.
+radixSortThrust, Throughput = 1.4362 MElements/s, Time = 0.00071 s, Size = 1024 elements
