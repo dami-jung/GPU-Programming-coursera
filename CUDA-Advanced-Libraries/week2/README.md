@@ -1,13 +1,3 @@
-Sample: boxFilterNPP
-Minimum spec: SM 2.0
-
-A NPP CUDA Sample that demonstrates how to use NPP FilterBox function to perform a Box Filter.
-
-Key concepts:
-Performance Strategies
-Image Processing
-NPP Library
-
 Y​ou will need to perform the following steps to develop new software that utilizes the CUDA cuFFT library:
 
 F​ill in the stubbed out functions in the cufft_example.cu file, paying attention to the TODO and other comments placed in the functions to guide you through the development. It may also be helpful to look at your activity for this module to find similarities.
