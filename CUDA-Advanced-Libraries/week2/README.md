@@ -1,3 +1,5 @@
+Having grader issue; couldn't found out why
+
 Sample: boxFilterNPP
 Minimum spec: SM 2.0
 
