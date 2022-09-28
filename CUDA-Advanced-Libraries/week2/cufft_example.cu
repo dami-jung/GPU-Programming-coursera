@@ -43,7 +43,7 @@ __host__ std::tuple<int, int> parseCommandLineArguments(int argc, char** argv)
         }
     }
     // TODO Set variable SIZE equal to N squared
-    int SIZE = N^2;
+    int SIZE = N*N;
 
     return {N, SIZE};
 }
@@ -60,14 +60,15 @@ __host__ Complex *generateComplexPointer(int SIZE)
 }
 
 __host__ void printComplexPointer(Complex *complex, int N)
-{
-    for (int i = 0; i < N * N; i = i + N)
-    {
-        for (int j=0; j < N; j++){
-            cout << complex[i+j].x << " ";
-        }
-        cout << endl;
-    }
+{    
+    for (int i = 0; i < N * N; i = i + N)    
+    {        
+        for (int j=0; j < N; j++)
+        {            
+            cout << complex[i+j].x << " ";        
+        }        
+        cout << endl;    
+    }    
     cout << "----------------" << endl;
 }
 
@@ -119,9 +120,9 @@ int main(int argc, char** argv)
     Complex *b = generateComplexPointer(SIZE);
     Complex *c = generateComplexPointer(SIZE);
 
-    cout << "Input random data a:" << endl;
-    printComplexPointer(a, N);
-    cout << "Input random data b:" << endl;
+    cout << "Input random data a:" << endl;    
+    printComplexPointer(a, N);    
+    cout << "Input random data b:" << endl;    
     printComplexPointer(b, N);
 
     int mem_size = sizeof(Complex)* SIZE;
